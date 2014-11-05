@@ -47,8 +47,8 @@ DEFAULT_PAGINATION = False
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
 MD_EXTENSIONS = ['codehilite','extra',
-    'video', # https://github.com/skeet70/django-markdown-video/blob/master/mdx_video.py
-    'urlize', # https://github.com/r0wb0t/markdown-urlize/blob/master/urlize.py
+    # 'video', # https://github.com/skeet70/django-markdown-video/blob/master/mdx_video.py
+    # 'urlize', # https://github.com/r0wb0t/markdown-urlize/blob/master/urlize.py
 ]
 
 SITEURL = 'http://0.0.0.0:8000'
