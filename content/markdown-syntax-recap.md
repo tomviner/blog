@@ -24,7 +24,8 @@ From the [original markdown syntax post](http://daringfireball.net/projects/mark
 ## Links
 
     [This link](http://example.net/)
-    [an example](http://example.com/ &quot;Title&quot;)
+    [Square](http://Round/) # "Square-Round" Say it thrise every morning and remember which brackets to use!
+    [title example](http://example.com/ &quot;Title&quot;)
 
     [About](/about/)
 
