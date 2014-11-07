@@ -2,7 +2,7 @@ Title: about
 
 # me
 
-Python, Django & general nerd at large. Interested in almost everything. Senior Dev on Team Code @udoxcreative
+Python, Django & general nerd at large. Interested in almost everything. Senior developer at @hogarthww
 
 # colophon
 
