@@ -35,6 +35,7 @@ LINKS = (
 SOCIAL = (
     ('Twitter', 'http://twitter.com/tomviner'),
     ('Github', 'https://github.com/tomviner'),
+    ('BitBucket', 'https://bitbucket.com/tomviner'),
     ('Lanyrd', 'http://lanyrd.com/profile/tomviner/'),
     ('LinkedIn', 'http://www.linkedin.com/in/tomviner'),
 )
@@ -42,7 +43,7 @@ TWITTER_USERNAME = 'tomviner'
 GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 
 #CUSTOM_CSS_FILE = 'custom.css'
-#THEME = 'tom'
+THEME = './theme/tom/'
 DEFAULT_PAGINATION = False
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
