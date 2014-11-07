@@ -42,7 +42,7 @@ SOCIAL = (
 TWITTER_USERNAME = 'tomviner'
 GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 
-#CUSTOM_CSS_FILE = 'custom.css'
+PATH = 'content/'
 THEME = './theme/tom/'
 DEFAULT_PAGINATION = False
 
@@ -54,6 +54,8 @@ MD_EXTENSIONS = ['codehilite','extra',
 
 SITEURL = 'http://0.0.0.0:8000'
 FEED_DOMAIN = SITEURL
+
+SITEMAP = {'format':'txt'}
 
 DEFAULT_DATE = 'fs'
 
