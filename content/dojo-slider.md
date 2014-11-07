@@ -1,5 +1,6 @@
 Title: February Dojo Debrief
 Tags: python, dojo
+Category: python
 Date: 2013-02-14
 
 Well the dojo was great fun last week. [Gautier](https://twitter.com/Gowtier) did a great job in his first time as cat herder and we had some great solutions. Some of them even worked!

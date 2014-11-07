@@ -1,5 +1,6 @@
 Title: Python, one of nature's giants
 Tags: python
+Category: python
 Date: 2013-1-16
 
 Hi and welcome. I've been using [twitter](http://twitter.com/tomviner) for a while now and definitely

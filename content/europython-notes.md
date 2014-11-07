@@ -1,5 +1,6 @@
 Title: Py.Test Fixtures
 Tags: python, testing, pytest
+Category: testing
 Date: 2014-8-23
 
 
