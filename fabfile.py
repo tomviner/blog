@@ -11,7 +11,7 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 production = 'viner@tomviner.co.uk:22'
-dest_path = '/home/viner/webapps/pelican/blog_new'
+dest_path = '/home/viner/webapps/pelican'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'

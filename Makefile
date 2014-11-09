@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=tomviner.co.uk
 SSH_PORT=22
 SSH_USER=viner
-SSH_TARGET_DIR=/home/viner/webapps/pelican/blog_new
+SSH_TARGET_DIR=/home/viner/webapps/pelican
 
 S3_BUCKET=my_s3_bucket
 
