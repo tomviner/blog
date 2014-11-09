@@ -8,9 +8,8 @@ feel the need for more space. I'll be writing about Python, Django,
 Code Dojos and a few of the projects I'm working on. I may also add
 the odd review of a book or documentary that's caught my interest.
 
-In the mean time, here's a clip of Python in action... from one of my
-favourite TV shows:
+Python in action... one of my favourite TV shows:
 
-Inside Python:
-
-http://www.youtube.com/watch?v=vzOXwVhqPIc
+[
+    ![Inside Python](/images/inside-natures-giants.jpg)
+](https://www.google.co.uk/search?q=inside+nature%27s+giants+python)
