@@ -13,9 +13,6 @@ from pelicanconf import *
 SITEURL = 'http://tomviner.co.uk'
 FEED_DOMAIN = SITEURL
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'gravatar']
-
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 

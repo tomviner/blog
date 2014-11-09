@@ -1,1 +1,1 @@
-Sitemap: http://tomviner.co.uk/sitemap.xml
+Sitemap: http://tomviner.co.uk/sitemap.txt

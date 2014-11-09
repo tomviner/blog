@@ -11,12 +11,14 @@ TIMEZONE = 'Europe/London'
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
     }
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     'images',
     'extra/robots.txt',
+    'extra/favicon.ico',
     ]
 
 # Feed generation is usually not desired when developing
@@ -45,6 +47,9 @@ GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 PATH = 'content/'
 THEME = './theme/tom/'
 DEFAULT_PAGINATION = False
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['sitemap', 'gravatar']
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
 MD_EXTENSIONS = ['codehilite','extra',
