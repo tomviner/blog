@@ -10,3 +10,8 @@
     font-size: 12px;
     color: #C74350;
     }
+
+.post-info {
+    max-width: 300px;
+    word-wrap: break-word;
+}
