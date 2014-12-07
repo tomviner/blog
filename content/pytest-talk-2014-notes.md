@@ -7,7 +7,9 @@ PyConUK 2014 talk by [Tom Viner](http://tomviner.co.uk) /
 [@tomviner](http://twitter.com/tomviner)
 
 <!-- [View slides](http://tomviner.co.uk/reveal.js/testing-talk.html) -->
-[View slides](https://cdn.rawgit.com/tomviner/exploring-unittesting-talk/52aea88ae002dbb7f9ac345f9e5764e52f74980b/reveal.js/index.html)
+[View slides of draft talk - a bit dry](https://cdn.rawgit.com/tomviner/exploring-unittesting-talk/52aea88ae002dbb7f9ac345f9e5764e52f74980b/reveal.js/index.html)
+
+[View slides of conference talk - has more personality](https://cdn.rawgit.com/tomviner/exploring-unittesting-talk/52aea88ae002dbb7f9ac345f9e5764e52f74980b/reveal.js/personality.html)
 
 ---
 
