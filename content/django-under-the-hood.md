@@ -7,6 +7,10 @@ Date: 2014-11-18
 
 Well the tickets sold in just 20 seconds and I can see why. [Django under the hood](http://www.djangounderthehood.com/) was a fun and informative dive into Django's innards. The conference was billed as *an exciting new Django conference for experienced Django developers* to *come and learn about the internals of Django, and help to shape its future* so clearly expanding the existing contributor base was a main part of the mission here. And I think it's fair to say it's proved the viability of a technical conference used to disseminate specific internal knowledge to a wider group.
 
+# Feedback
+
+The tech talks really worked well. Only added thing I'd suggest, is structured sprints. Advertise what's needed for new sprinters to get the idea. Then organise groups so people can know who to ask for help. I know for example that Django Girls is great at this.
+
 # The talks
 
 I'm planning to give a summary of the talks at work, so I'm collecting some notes on the talks here.
@@ -66,10 +70,3 @@ Daniel Pyrathon
 
 ## Python templating
 Armin Ronacher
-
-
-
-
-Tech talks worked
-
-Feedback email: structured sprints. Advertise what's needed. Organise groups.
