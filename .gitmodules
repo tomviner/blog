@@ -1,7 +1,3 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = git@github.com:getpelican/pelican-plugins.git
-[submodule "failure-seeking-missiles-talk"]
-	path = failure-seeking-missiles-talk
-	url = git@github.com:tomviner/failure-seeking-missiles-talk.git
-	branch = master
