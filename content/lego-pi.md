@@ -9,9 +9,9 @@ Lego Mindstorms
 
 Motor to motor
 
-![a](|filename|/images/autosave.jpeg)
+![a]({filename}/images/autosave.jpeg)
 
-[a link relative to content root](|filename|python-one-of-natures-giants.md)
+[a link relative to content root]({filename}python-one-of-natures-giants.md)
 
 > Implementing the H Bridge circuit for DC motor control on the Raspberry Pi
 

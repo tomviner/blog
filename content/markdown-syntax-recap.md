@@ -15,8 +15,15 @@ From the [original markdown syntax post](http://daringfireball.net/projects/mark
 
 ### Pelican specific
 
+#### Old
+
     [a link relative to content root](|filename|python-one-of-natures-giants.md)
     ![alt text](|filename|/images/autosave.jpeg)
+
+#### New
+
+    [a link relative to content root]({filename}python-one-of-natures-giants.md)
+    ![alt text]({filename}/images/autosave.jpeg)
 
 
 # Full ref

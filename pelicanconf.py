@@ -17,9 +17,11 @@ EXTRA_PATH_METADATA = {
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     'images',
+    'talks',
     'extra/robots.txt',
     'extra/favicon.ico',
     ]
+ARTICLE_EXCLUDES = STATIC_PATHS
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
