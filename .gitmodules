@@ -8,4 +8,4 @@
 [submodule "content/talks/exploring-unittesting-talk-repo"]
 	path = content/talks/exploring-unittesting-talk-repo
 	url = git@github.com:tomviner/exploring-unittesting-talk.git
-	branch = master
+	branch = with-mins

@@ -1,4 +1,4 @@
-title: PyConUK2014 Pytest Talk - Research
+title: Exploring unit-testing Talk - Research
 Category: testing
 Tags: python, testing, pytest, conferences
 Date: 2014-9-16
