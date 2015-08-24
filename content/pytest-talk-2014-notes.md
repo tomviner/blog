@@ -6,10 +6,13 @@ Date: 2014-9-18
 PyConUK 2014 talk by [Tom Viner](http://tomviner.co.uk) /
 [@tomviner](http://twitter.com/tomviner)
 
-<!-- [View slides](http://tomviner.co.uk/reveal.js/testing-talk.html) -->
-[View slides of draft talk - a bit dry](talks/exploring-unittesting-talk)
+### Slides of conference talk
 
-[View slides of conference talk - has more personality](talks/exploring-unittesting-talk/personality.html)
+<iframe width="560" height="315" src="talks/exploring-unittesting-talk/personality.html" frameborder="0" allowfullscreen></iframe>
+
+<a href="talks/exploring-unittesting-talk/personality.html" target="_blank">View slides full screen</a>
+
+(The original slides of my [draft talk](talks/exploring-unittesting-talk) were a bit dry)
 
 ---
 
