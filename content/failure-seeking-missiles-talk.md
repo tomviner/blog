@@ -36,5 +36,6 @@ tool to our Python code.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5kaqOKIqX_4" frameborder="0" allowfullscreen></iframe>
 
 Related links:
-- [EuroPython2015 talk page](https://ep2015.europython.eu/conference/talks/testing-with-two-failure-seeking-missiles-fuzzing-and-property-based-testing)
-- [lanyrd page](http://lanyrd.com/2015/europython/sdqgpg/)
+
+* [EuroPython2015 talk page](https://ep2015.europython.eu/conference/talks/testing-with-two-failure-seeking-missiles-fuzzing-and-property-based-testing)
+* [Lanyrd page](http://lanyrd.com/2015/europython/sdqgpg/)
