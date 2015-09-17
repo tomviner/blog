@@ -8,7 +8,7 @@ PyConUK 2014 talk by [Tom Viner](http://tomviner.co.uk) /
 
 ### Slides of conference talk
 
-<iframe width="560" height="315" src="talks/exploring-unittesting-talk/personality.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="/talks/exploring-unittesting-talk/personality.html" frameborder="0" allowfullscreen></iframe>
 
 <a href="talks/exploring-unittesting-talk/personality.html" target="_blank">View slides full screen</a>
 

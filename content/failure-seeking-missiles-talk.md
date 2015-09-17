@@ -29,7 +29,7 @@ tool to our Python code.
   [3]: http://jwilk.net/software/python-afl
 
 
-<iframe width="560" height="315" src="talks/failure-seeking-missiles-talk/" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="/talks/failure-seeking-missiles-talk/" frameborder="0" allowfullscreen></iframe>
 
 <a href="talks/failure-seeking-missiles-talk/" target="_blank">View slides full screen</a>
 
