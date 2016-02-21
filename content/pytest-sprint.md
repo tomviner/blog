@@ -1,5 +1,4 @@
 Title: pytest and I, time for a sprint?
-Status: draft
 Tags: python, testing
 Date: 2016-2-20
 
