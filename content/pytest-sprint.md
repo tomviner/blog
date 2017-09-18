@@ -1,4 +1,5 @@
 Title: pytest and I, time for a sprint?
+Category: testing
 Tags: python, testing
 Date: 2016-2-20
 

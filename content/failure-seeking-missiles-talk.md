@@ -31,7 +31,7 @@ tool to our Python code.
 
 <iframe width="560" height="315" src="/talks/failure-seeking-missiles-talk/" frameborder="0" allowfullscreen></iframe>
 
-<a href="talks/failure-seeking-missiles-talk/" target="_blank">View slides full screen</a>
+<a href="/talks/failure-seeking-missiles-talk/" target="_blank">View slides full screen</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5kaqOKIqX_4" frameborder="0" allowfullscreen></iframe>
 
