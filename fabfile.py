@@ -19,12 +19,12 @@ production = 'viner@tomviner.co.uk:22'
 dest_path = '/home/viner/webapps/pelican'
 
 # Rackspace Cloud Files configuration settings
-env.cloudfiles_username = '$cloudfiles_username'
-env.cloudfiles_api_key = '$cloudfiles_api_key'
-env.cloudfiles_container = '$cloudfiles_container'
+env.cloudfiles_username = 'my_rackspace_username'
+env.cloudfiles_api_key = 'my_rackspace_api_key'
+env.cloudfiles_container = 'my_cloudfiles_container'
 
 # Github Pages configuration
-env.github_pages_branch = "$github_pages_branch"
+env.github_pages_branch = "gh-pages"
 
 # Port for `serve`
 PORT = 8000
@@ -51,7 +51,7 @@ def serve():
     """Serve site at http://localhost:8000/"""
     os.chdir(env.deploy_path)
 
-    class AddressReuseTCPServer(socketserver.TCPServer):
+    class AddressReuseTCPServer(SocketServer.TCPServer):
         allow_reuse_address = True
 
     server = AddressReuseTCPServer(('', PORT), ComplexHTTPRequestHandler)

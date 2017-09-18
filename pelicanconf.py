@@ -4,24 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Tom Viner'
 SITENAME = 'Tom Viner'
-SUMMARY_MAX_LENGTH = 2
+SITEURL = ''
+
+PATH = 'content'
 
 TIMEZONE = 'Europe/London'
 
-# path-specific metadata
-EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    }
-
-# static paths will be copied without parsing their contents
-STATIC_PATHS = [
-    'images',
-    'talks',
-    'extra/robots.txt',
-    'extra/favicon.ico',
-    ]
-ARTICLE_EXCLUDES = STATIC_PATHS
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    # ('Python.org', 'http://python.org/'),
+     # ('Python.org', 'http://python.org/'),
 )
 
 # Social widget
@@ -46,15 +35,31 @@ SOCIAL = (
 TWITTER_USERNAME = 'tomviner'
 GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 
-PATH = 'content/'
-THEME = './theme/tom/'
 DEFAULT_PAGINATION = False
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
+# path-specific metadata
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
+
+# static paths will be copied without parsing their contents
+STATIC_PATHS = [
+    'images',
+    'talks',
+    'extra/robots.txt',
+    'extra/favicon.ico',
+]
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'gravatar']
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
-MD_EXTENSIONS = ['codehilite','extra',
+MD_EXTENSIONS = [
+    'codehilite', 'extra',
     # 'video', # https://github.com/skeet70/django-markdown-video/blob/master/mdx_video.py
     # 'urlize', # https://github.com/r0wb0t/markdown-urlize/blob/master/urlize.py
 ]
@@ -66,11 +71,5 @@ SITEMAP = {'format':'txt'}
 
 DEFAULT_DATE = 'fs'
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
-
-
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = False
+# FEED_ALL_ATOM = 'feeds/all.atom.xml'
+# FEED_ALL_RSS = 'feeds/all.rss.xml'

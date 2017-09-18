@@ -18,10 +18,10 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
-
 # Uncomment following line for absolute URLs in production:
-#RELATIVE_URLS = False
+# RELATIVE_URLS = False
+
+# Following items are often useful when publishing
 
 DISQUS_SITENAME = 'viner'
 GOOGLE_ANALYTICS = 'UA-38679370-1'
