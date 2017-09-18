@@ -2,7 +2,7 @@ Title: about
 
 # me
 
-Python, Django & general nerd at large. Interested in almost everything. Team lead and senior developer at @hogarthww
+Python, Django & general nerd at large. Interested in almost everything. Former team lead and senior developer at @hogarthww
 
 # colophon
 

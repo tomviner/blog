@@ -33,14 +33,20 @@
                 {% for title, link in MENUITEMS %}
                     <li {% if tag and tag.url == link.lstrip('/') %}class="active"{% endif %}><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
+                {% for tag, articles in tags|sort %}
+                    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+                {% endfor %}
+                PAGES: {{ PAGES }}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for pag in PAGES %}
                     <li {% if page and page.url == page.url.lstrip('/') %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ pag.url }}">{{ pag.title }}</a></li>
                 {% endfor %}
                 {% endif %}
+                {% if DISPLAY_CATEGORIES_ON_MENU %}
                 {% for cat, null in categories %}
                     <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
+                {% endif %}
                 </ul></nav>
         </header><!-- /#banner -->
         {% block content %}
