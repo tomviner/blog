@@ -36,7 +36,6 @@
                 {% for tag, articles in tags|sort %}
                     <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
                 {% endfor %}
-                PAGES: {{ PAGES }}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for pag in PAGES %}
                     <li {% if page and page.url == page.url.lstrip('/') %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ pag.url }}">{{ pag.title }}</a></li>

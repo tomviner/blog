@@ -36,6 +36,7 @@ TWITTER_USERNAME = 'tomviner'
 GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 
 DEFAULT_PAGINATION = False
+THEME = './theme/tom/'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -79,5 +80,7 @@ SITEMAP = {'format':'txt'}
 
 DEFAULT_DATE = 'fs'
 
-# FEED_ALL_ATOM = 'feeds/all.atom.xml'
-# FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+
+DISPLAY_CATEGORIES_ON_MENU = False

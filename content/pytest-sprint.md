@@ -1,6 +1,6 @@
 Title: pytest and I, time for a sprint?
 Category: testing
-Tags: python, testing
+Tags: python, testing, pytest
 Date: 2016-2-20
 
 Pytest is having a [sprint](http://pytest.org/latest/announce/sprint2016.html) this summer, in Freiburg, Germany. I've signed up myself, and so I thought I'd explain what attracted me to pytest and why you should consider [donating](https://www.indiegogo.com/projects/python-testing-sprint-mid-2016#/).

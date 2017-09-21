@@ -6,7 +6,7 @@ git submodule add -b master "git@github.com:tomviner/$REPO.git" "content/talks/$
 
 ln -s "$(readlink -f content/talks/$REPO-repo/reveal.js/)" "content/talks/$REPO"
 
-echo "[View slides](talks/$REPO/)"
+echo "[View slides](/talks/$REPO/)"
 ```
 
 The Makefile contains:
