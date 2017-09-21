@@ -1,4 +1,4 @@
-Add submodules and connect up reveal.js folder:
+Add submodules and connect up reveal.js folder. This presents the slides at a reasonable URL path.
 
 ```bash
 REPO = "exploring-unittesting-talk"

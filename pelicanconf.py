@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-     # ('Python.org', 'http://python.org/'),
+    # ('Python.org', 'http://python.org/'),
 )
 
 # Social widget
@@ -38,7 +38,7 @@ GITHUB_ACTIVITY_FEED = 'https://github.com/tomviner.atom'
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # path-specific metadata
 EXTRA_PATH_METADATA = {
@@ -56,12 +56,20 @@ STATIC_PATHS = [
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['sitemap', 'gravatar']
+ARTICLE_EXCLUDES = [
+    # content/talks contains repos with reveal.js slides.
+    # these repos also contain notes in markdown files,
+    # and we don't want to consider as articles
+    'talks',
+]
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
 MD_EXTENSIONS = [
     'codehilite', 'extra',
-    # 'video', # https://github.com/skeet70/django-markdown-video/blob/master/mdx_video.py
-    # 'urlize', # https://github.com/r0wb0t/markdown-urlize/blob/master/urlize.py
+    # https://github.com/skeet70/django-markdown-video/blob/master/mdx_video.py
+    # 'video',
+    # https://github.com/r0wb0t/markdown-urlize/blob/master/urlize.py
+    # 'urlize',
 ]
 
 SITEURL = 'http://0.0.0.0:8000'
