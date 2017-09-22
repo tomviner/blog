@@ -50,19 +50,17 @@ EXTRA_PATH_METADATA = {
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     'images',
-    'talks',
-    'extra/robots.txt',
-    'extra/favicon.ico',
-]
-
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'gravatar']
-ARTICLE_EXCLUDES = [
     # content/talks contains repos with reveal.js slides.
     # these repos also contain notes in markdown files,
     # and we don't want to consider as articles
     'talks',
+    'extra/robots.txt',
+    'extra/favicon.ico',
 ]
+ARTICLE_EXCLUDES = STATIC_PATHS
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['sitemap', 'gravatar']
 
 # http://freewisdom.org/projects/python-markdown/Available_Extensions
 MD_EXTENSIONS = [
@@ -76,11 +74,8 @@ MD_EXTENSIONS = [
 SITEURL = 'http://0.0.0.0:8000'
 FEED_DOMAIN = SITEURL
 
-SITEMAP = {'format':'txt'}
+SITEMAP = {'format': 'txt'}
 
 DEFAULT_DATE = 'fs'
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'feeds/all.rss.xml'
 
 DISPLAY_CATEGORIES_ON_MENU = False
