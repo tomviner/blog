@@ -13,6 +13,7 @@ The Makefile contains:
 
     # http://stackoverflow.com/a/9189815/15890
     update_submodules:
+        git submodule init
         git submodule update --remote
 
 So to update talks (and pelican plugins):

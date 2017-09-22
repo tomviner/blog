@@ -12,7 +12,8 @@ PyConUK 2014 talk by [Tom Viner](http://tomviner.co.uk) /
 
 <a href="/talks/exploring-unittesting-talk/personality.html" target="_blank">View slides full screen</a>
 
-(The original slides of my [draft talk](/talks/exploring-unittesting-talk) were a bit dry)
+
+(The original slides of my <a href="/talks/exploring-unittesting-talk" target="_blank">draft talk</a> were a bit dry)
 
 ---
 
