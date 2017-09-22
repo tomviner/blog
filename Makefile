@@ -123,6 +123,7 @@ github: publish
 
 # http://stackoverflow.com/a/9189815/15890
 update_submodules:
-    git submodule update --remote
+	git submodule init
+	git submodule update --remote
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
