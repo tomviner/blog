@@ -3,8 +3,8 @@
 <head>
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/custom.css" type="text/css" />
+        <link rel="stylesheet" href="/theme/css/{{ CSS_FILE }}" type="text/css" />
+        <link rel="stylesheet" href="/theme/css/custom.css" type="text/css" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
         {% endif %}
@@ -17,33 +17,33 @@
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
         <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie.css"/>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
                 <script src="{{ SITEURL }}/js/IE8.js" type="text/javascript"></script><![endif]-->
 
         <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie6.css"/><![endif]-->
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
 
 </head>
 
 <body id="index" class="home">
 {% include 'github.html' %}
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <h1><a href="/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
                     <li {% if tag and tag.url == link.lstrip('/') %}class="active"{% endif %}><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
                 {% for tag, articles in tags|sort %}
-                    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+                    <li><a href="/{{ tag.url }}">{{ tag }}</a></li>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for pag in PAGES %}
-                    <li {% if page and page.url == page.url.lstrip('/') %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ pag.url }}">{{ pag.title }}</a></li>
+                    <li {% if page and page.url == page.url.lstrip('/') %}class="active"{% endif %}><a href="/{{ pag.url }}">{{ pag.title }}</a></li>
                 {% endfor %}
                 {% endif %}
                 {% if DISPLAY_CATEGORIES_ON_MENU %}
                 {% for cat, null in categories %}
-                    <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    <li {% if cat == category %}class="active"{% endif %}><a href="/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}
                 {% endif %}
                 </ul></nav>
