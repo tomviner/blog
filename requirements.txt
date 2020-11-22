@@ -10,7 +10,7 @@ feedgenerator==1.9
 idna==2.6
 Jinja2==2.9.6
 Markdown==2.6.2
-MarkupSafe==1.0
+MarkupSafe==1.1.1
 paramiko==2.3.0
 pelican==3.7.1
 pipdeptree==0.4.2
