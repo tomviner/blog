@@ -4,7 +4,7 @@ blinker==1.4
 cffi==1.11.0
 cryptography==2.0.3
 docutils==0.14
-ecdsa==0.13
+ecdsa==0.13.3
 Fabric3==1.13.1.post1
 feedgenerator==1.9
 idna==2.6
