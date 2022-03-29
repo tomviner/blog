@@ -11,7 +11,7 @@ idna==2.6
 Jinja2==2.9.6
 Markdown==2.6.2
 MarkupSafe==1.1.1
-paramiko==2.3.0
+paramiko==2.10.1
 pelican==3.7.1
 pipdeptree==0.4.2
 pyasn1==0.3.5
